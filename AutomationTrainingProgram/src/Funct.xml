@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression" parallel="tests" thread-count="6">
+<listeners>
+<listener class-name="Ilisteners.Ilistner"></listener>
+</listeners>
+<test name="AmazonToEdge">
+<parameter name="browser" value="Edge"></parameter>
+<classes>
+<class name="ProTrainingTech.AutomationTrainingProgram.Browser"></class>
+<class name="ProTrainingTech.AutomationTrainingProgram.Browser2"></class>
+</classes>
+</test>
+<test name="AmazonToFirefox">
+<parameter name="browser" value="Firefox"></parameter>
+<classes>
+<class name="ProTrainingTech.AutomationTrainingProgram.Browser"></class>
+<class name="ProTrainingTech.AutomationTrainingProgram.Browser2"></class>
+</classes>
+</test>
+<test name="AmazonToChrome">
+<parameter name="browser" value="Chrome"></parameter>
+<classes>
+<class name="ProTrainingTech.AutomationTrainingProgram.Browser"></class>
+<class name="ProTrainingTech.AutomationTrainingProgram.Browser2"></class>
+</classes>
+</test>
+</suite>

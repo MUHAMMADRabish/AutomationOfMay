@@ -7,11 +7,12 @@
 <test name="AmazonToEdge">
 <parameter name="browser" value="Edge"></parameter>
 <classes>
-<class name="ProTrainingTech.AutomationTrainingProgram.Browser"></class>
-<class name="ProTrainingTech.AutomationTrainingProgram.Browser2"></class>
+<!--  <class name="ProTrainingTech.AutomationTrainingProgram.Browser"></class>-->
+<!--  <class name="ProTrainingTech.AutomationTrainingProgram.Browser2"></class>-->
+<class name="ProTrainingTech.AutomationTrainingProgram.ProvideresToParameters"></class>
 </classes>
 </test>
-<test name="AmazonToFirefox">
+<!--  <test name="AmazonToFirefox">
 <parameter name="browser" value="Firefox"></parameter>
 <classes>
 <class name="ProTrainingTech.AutomationTrainingProgram.Browser"></class>
@@ -24,5 +25,5 @@
 <class name="ProTrainingTech.AutomationTrainingProgram.Browser"></class>
 <class name="ProTrainingTech.AutomationTrainingProgram.Browser2"></class>
 </classes>
-</test>
+</test>-->
 </suite>
